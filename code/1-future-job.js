@@ -7,10 +7,12 @@ let jobs = [
   'firefighter',
   'police officer',
   'space doctor',
+  'teacher',
+  'sandcastle expert'
 ]
 
 function getJob() {
-  let index = 0
+  let index = Math.floor (Math.random()*5)
 
-  alert('Your future job will be' + jobs[0])
+  alert('Your future job will be' + jobs[index])
 }
